@@ -35,5 +35,4 @@ client.on('message', msg => {
     msg.reply('Marcus is a creep!');
   }
 });
-
-client.login('MzY0NDA2OTgyMjM4NTM1Njgw.DLP0gQ.4_sB1QozuVSNh0k03VP8blkJoGU');
+client.login(process.env.BOT_TOKEN);
